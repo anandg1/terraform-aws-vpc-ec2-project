@@ -472,5 +472,5 @@ terraform apply
 
 ## Conclusion:
 
-I have created a VPC with 4 subnets and 3 EC2s using terraform. 
+I have created a VPC with 2 public and 2 private subnets and 3 EC2s with proper security groups and keypair using terraform. 
 
