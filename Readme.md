@@ -22,14 +22,15 @@ All of these will be created by simply running a terraform code which I created.
 > Click here to [download](https://www.terraform.io/downloads.html) and  [install](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started) terraform.
 
 Installation steps I followed:
-> wget https://releases.hashicorp.com/terraform/0.15.3/terraform_0.15.3_linux_amd64.zip
+```sh
+wget https://releases.hashicorp.com/terraform/0.15.3/terraform_0.15.3_linux_amd64.zip
 unzip terraform_0.15.3_linux_amd64.zip 
 ls 
 terraform  terraform_0.15.3_linux_amd64.zip    
 mv terraform /usr/bin/
 which terraform 
 /usr/bin/terraform
-
+```
 ## Architecture:
 
 ![alt text](https://github.com/anandg1/terraform-aws-vpc-ec2-project/blob/main/Arch.jpg)
