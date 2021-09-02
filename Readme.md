@@ -32,7 +32,7 @@ which terraform
 
 ## Architecture:
 
-![alt text](https://github.com/anandg1/terraform-aws-vpc-ec2-project/blob/main/Architecture.jpg)
+![alt text](https://github.com/anandg1/terraform-aws-vpc-ec2-project/blob/main/Arch.jpg)
 
 ## Steps:
 
