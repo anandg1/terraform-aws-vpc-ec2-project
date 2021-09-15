@@ -139,7 +139,7 @@ resource "aws_internet_gateway" "igw" {
 }
 ```
 
-Next I'm going to create 2 public subnets and 2 private subnets. Hence I'm going to divide the entire IP range into 8 equal subnets (/19). For this, I'm using the [cidrsubnet function](https://www.terraform.io/docs/language/functions/cidrsubnet.html) in terraform.
+Next I'm going to create 2 public subnets and 2 private subnets. Hence I'm going to divide the entire IP range into 4 equal subnets. For this, I'm using the [cidrsubnet function](https://www.terraform.io/docs/language/functions/cidrsubnet.html) in terraform.
 
 > creating public subnets
 ```sh
