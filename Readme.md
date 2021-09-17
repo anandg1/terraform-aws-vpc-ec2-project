@@ -172,7 +172,6 @@ resource "aws_subnet" "pub2" {
 resource "aws_subnet" "pri1" {
 
   vpc_id = aws_vpc.vpc01.id
-  map_public_ip_on_launch = true
   cidr_block = cidrsubnet(var.vpc_cidr , var.subnet_bit , 2)
   availability_zone = data.aws_availability_zones.az.names[0]
   tags = {
@@ -184,7 +183,6 @@ resource "aws_subnet" "pri1" {
 resource "aws_subnet" "pri2" {
 
   vpc_id = aws_vpc.vpc01.id
-  map_public_ip_on_launch = true
   cidr_block = cidrsubnet(var.vpc_cidr , var.subnet_bit , 3)
   availability_zone = data.aws_availability_zones.az.names[1]
   tags = {
